@@ -14,18 +14,18 @@ body {
 }
 
 .container {
-    background-color: blue;
+    background-image: linear-gradient(171deg, #A100FFFF 0%, #126AB7FF 0%, #71C4FFFF 100%);
     color: #fff;
 }
 
 .firstImg {
-    width: 25vw;
+    width: 15vw;
     margin: 0.5vw;
 }
 
 .firstImgDev {
     background-color: #fff;
-    width: 26vw;
+    width: 16vw;
 }
 
 .thumbImgDiv {
@@ -39,6 +39,74 @@ body {
     margin: 0.3vw;
 }
 
+.secondContainer {
+    background-color: #e0f5f5;
+    clear: both;
+}
+
+.menuItems {
+    float: left;
+    list-style: none;
+
+}
+
+.menuItems a {
+    display: inline-block;
+    color: #fff;
+    padding: 6px 14px;
+}
+
+.menuItems:hover {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+nav {
+    float: right;
+    margin-bottom: 10px;
+}
+
+header,
+.firstSection,
 .secondSection {
-    background-color: aqua;
+    margin: auto;
+    width: 70vw;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logoDiv {
+    padding-top: 25px;
+}
+
+h1 {
+    padding: 15px 0;
+    font-size: 20px;
+    clear: both;
+}
+
+hr {
+    clear: both;
+    border: 1px solid rgba(76, 76, 76, 0.3);
+    width: 70vw;
+    margin: auto;
+}
+
+.para {
+    margin-bottom: 10px;
+}
+
+.right {
+    width: 48%;
+    float: right;
+}
+
+.left {
+    width: 48%;
+    padding-bottom: 20px;
 }
