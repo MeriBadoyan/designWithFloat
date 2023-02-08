@@ -8,8 +8,14 @@ a {
     text-decoration: none;
 }
 
+body {
+    font-family: sans-serif;
+    line-height: 1.1
+}
+
 .container {
     background-color: blue;
+    color: #fff;
 }
 
 .firstImg {
