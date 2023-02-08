@@ -7,3 +7,32 @@
 a {
     text-decoration: none;
 }
+
+.container {
+    background-color: blue;
+}
+
+.firstImg {
+    width: 25vw;
+    margin: 0.5vw;
+}
+
+.firstImgDev {
+    background-color: #fff;
+    width: 26vw;
+}
+
+.thumbImgDiv {
+    background-color: #fff;
+    width: 13.6vw;
+
+}
+
+.thumbImg {
+    width: 13vw;
+    margin: 0.3vw;
+}
+
+.secondSection {
+    background-color: aqua;
+}
