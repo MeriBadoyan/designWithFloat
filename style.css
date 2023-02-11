@@ -103,6 +103,7 @@ hr {
 .leftSide {
     width: 48%;
     padding-bottom: 20px;
+    float: left;
 }
 
 h2 {
@@ -145,4 +146,8 @@ footer {
 
 .footerItems a {
     color: #244266;
+}
+
+.clear {
+    clear: both;
 }
