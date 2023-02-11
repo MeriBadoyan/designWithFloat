@@ -151,3 +151,18 @@ footer {
 .clear {
     clear: both;
 }
+
+
+.categoriesUl {
+    list-style: none;
+    display: none;
+}
+
+.categories:hover .categoriesUl {
+    display: block;
+}
+
+.categoriesUl a:hover {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.3);
+}
